@@ -1,0 +1,23 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "Enable IAM User Permissions",
+			"Effect": "Allow",
+			"Principal": {
+				"AWS": "arn:aws:iam::INSERT_ACCOUNT_ID:root"
+			},
+			"Action": "kms:*",
+			"Resource": "*"
+		},
+		{
+			"Sid": "Enable explicit permissions for Macie service-role",
+			"Effect": "Allow",
+			"Principal": {
+				"AWS": "arn:aws:iam::INSERT_ACCOUNT_ID:role/aws-service-role/macie.amazonaws.com/AWSServiceRoleForAmazonMacie"
+			},
+			"Action": "kms:Decrypt",
+			"Resource": "*"
+		}
+	]
+}
