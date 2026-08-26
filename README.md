@@ -8,6 +8,11 @@ aifc01d5 : AWS KMS Amazon Macie # AIF-C01 # Encryption # PII # AI Security Tool 
 - To use Amazon Macie to identify PII stored in objects in the S3 bucket.
 
 
+## Similar Skills Set
+- Azure : Microsoft Purview Data Loss Prevention + Azure Information Protection
+- GCP : Cloud Data Loss Prevention (DLP)
+
+
 ## Securing Data in Amazon S3 Using Amazon Macie & AWS KMS
 
 ![aifc01d5001.png](./media/aifc01d5001.png)
